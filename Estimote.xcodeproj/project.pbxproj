@@ -7,24 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7050FD12E1EEF13789589FF8 /* libPods-Estimote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F2FD77A25B1322622D1946 /* libPods-Estimote.a */; };
 		74482D231AC6EC2F001189B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74482D221AC6EC2F001189B9 /* main.m */; };
 		74482D261AC6EC2F001189B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74482D251AC6EC2F001189B9 /* AppDelegate.m */; };
-		74482D291AC6EC2F001189B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74482D281AC6EC2F001189B9 /* ViewController.m */; };
 		74482D2C1AC6EC2F001189B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74482D2A1AC6EC2F001189B9 /* Main.storyboard */; };
 		74482D2E1AC6EC2F001189B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74482D2D1AC6EC2F001189B9 /* Images.xcassets */; };
 		74482D311AC6EC2F001189B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74482D2F1AC6EC2F001189B9 /* LaunchScreen.xib */; };
-		74482D3D1AC6EC30001189B9 /* EstimoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74482D3C1AC6EC30001189B9 /* EstimoteTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		74482D371AC6EC30001189B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74482D151AC6EC2F001189B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74482D1C1AC6EC2F001189B9;
-			remoteInfo = Estimote;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		74482D1D1AC6EC2F001189B9 /* Estimote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estimote.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,14 +21,12 @@
 		74482D221AC6EC2F001189B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74482D241AC6EC2F001189B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74482D251AC6EC2F001189B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74482D271AC6EC2F001189B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74482D281AC6EC2F001189B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74482D2B1AC6EC2F001189B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74482D2D1AC6EC2F001189B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74482D301AC6EC2F001189B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		74482D361AC6EC30001189B9 /* EstimoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstimoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74482D3B1AC6EC30001189B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74482D3C1AC6EC30001189B9 /* EstimoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimoteTests.m; sourceTree = "<group>"; };
+		97F2FD77A25B1322622D1946 /* libPods-Estimote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Estimote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FE522441B687482F27A968 /* Pods-Estimote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estimote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Estimote/Pods-Estimote.debug.xcconfig"; sourceTree = "<group>"; };
+		F787933A296BB6CA1FB9AE9A /* Pods-Estimote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Estimote.release.xcconfig"; path = "Pods/Target Support Files/Pods-Estimote/Pods-Estimote.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,25 +34,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74482D331AC6EC30001189B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7050FD12E1EEF13789589FF8 /* libPods-Estimote.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B9F9801CBD18605295EC2A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97F2FD77A25B1322622D1946 /* libPods-Estimote.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74482D141AC6EC2F001189B9 = {
 			isa = PBXGroup;
 			children = (
 				74482D1F1AC6EC2F001189B9 /* Estimote */,
-				74482D391AC6EC30001189B9 /* EstimoteTests */,
 				74482D1E1AC6EC2F001189B9 /* Products */,
+				9E60B2AD8C0EE88C6B5EF4A5 /* Pods */,
+				0B9F9801CBD18605295EC2A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				74482D1D1AC6EC2F001189B9 /* Estimote.app */,
-				74482D361AC6EC30001189B9 /* EstimoteTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,8 +72,6 @@
 			children = (
 				74482D241AC6EC2F001189B9 /* AppDelegate.h */,
 				74482D251AC6EC2F001189B9 /* AppDelegate.m */,
-				74482D271AC6EC2F001189B9 /* ViewController.h */,
-				74482D281AC6EC2F001189B9 /* ViewController.m */,
 				74482D2A1AC6EC2F001189B9 /* Main.storyboard */,
 				74482D2D1AC6EC2F001189B9 /* Images.xcassets */,
 				74482D2F1AC6EC2F001189B9 /* LaunchScreen.xib */,
@@ -102,21 +89,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		74482D391AC6EC30001189B9 /* EstimoteTests */ = {
+		9E60B2AD8C0EE88C6B5EF4A5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				74482D3C1AC6EC30001189B9 /* EstimoteTests.m */,
-				74482D3A1AC6EC30001189B9 /* Supporting Files */,
+				C2FE522441B687482F27A968 /* Pods-Estimote.debug.xcconfig */,
+				F787933A296BB6CA1FB9AE9A /* Pods-Estimote.release.xcconfig */,
 			);
-			path = EstimoteTests;
-			sourceTree = "<group>";
-		};
-		74482D3A1AC6EC30001189B9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				74482D3B1AC6EC30001189B9 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74482D401AC6EC30001189B9 /* Build configuration list for PBXNativeTarget "Estimote" */;
 			buildPhases = (
+				6583CE1030DB251443DB075C /* Check Pods Manifest.lock */,
 				74482D191AC6EC2F001189B9 /* Sources */,
 				74482D1A1AC6EC2F001189B9 /* Frameworks */,
 				74482D1B1AC6EC2F001189B9 /* Resources */,
+				D02EF8EC75B35954D9575111 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,24 +119,6 @@
 			productName = Estimote;
 			productReference = 74482D1D1AC6EC2F001189B9 /* Estimote.app */;
 			productType = "com.apple.product-type.application";
-		};
-		74482D351AC6EC30001189B9 /* EstimoteTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74482D431AC6EC30001189B9 /* Build configuration list for PBXNativeTarget "EstimoteTests" */;
-			buildPhases = (
-				74482D321AC6EC30001189B9 /* Sources */,
-				74482D331AC6EC30001189B9 /* Frameworks */,
-				74482D341AC6EC30001189B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				74482D381AC6EC30001189B9 /* PBXTargetDependency */,
-			);
-			name = EstimoteTests;
-			productName = EstimoteTests;
-			productReference = 74482D361AC6EC30001189B9 /* EstimoteTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +131,6 @@
 				TargetAttributes = {
 					74482D1C1AC6EC2F001189B9 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					74482D351AC6EC30001189B9 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 74482D1C1AC6EC2F001189B9;
 					};
 				};
 			};
@@ -189,7 +148,6 @@
 			projectRoot = "";
 			targets = (
 				74482D1C1AC6EC2F001189B9 /* Estimote */,
-				74482D351AC6EC30001189B9 /* EstimoteTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,43 +163,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74482D341AC6EC30001189B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6583CE1030DB251443DB075C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		D02EF8EC75B35954D9575111 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Estimote/Pods-Estimote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74482D191AC6EC2F001189B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74482D291AC6EC2F001189B9 /* ViewController.m in Sources */,
 				74482D261AC6EC2F001189B9 /* AppDelegate.m in Sources */,
 				74482D231AC6EC2F001189B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74482D321AC6EC30001189B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74482D3D1AC6EC30001189B9 /* EstimoteTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		74482D381AC6EC30001189B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 74482D1C1AC6EC2F001189B9 /* Estimote */;
-			targetProxy = 74482D371AC6EC30001189B9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		74482D2A1AC6EC2F001189B9 /* Main.storyboard */ = {
@@ -341,6 +308,7 @@
 		};
 		74482D411AC6EC30001189B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FE522441B687482F27A968 /* Pods-Estimote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Estimote/Info.plist;
@@ -351,45 +319,12 @@
 		};
 		74482D421AC6EC30001189B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F787933A296BB6CA1FB9AE9A /* Pods-Estimote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Estimote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		74482D441AC6EC30001189B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = EstimoteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estimote.app/Estimote";
-			};
-			name = Debug;
-		};
-		74482D451AC6EC30001189B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = EstimoteTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estimote.app/Estimote";
 			};
 			name = Release;
 		};
@@ -412,14 +347,7 @@
 				74482D421AC6EC30001189B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		74482D431AC6EC30001189B9 /* Build configuration list for PBXNativeTarget "EstimoteTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74482D441AC6EC30001189B9 /* Debug */,
-				74482D451AC6EC30001189B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
